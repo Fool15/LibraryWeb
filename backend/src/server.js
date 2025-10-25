@@ -15,5 +15,3 @@ app.use("/api/library",router)
 connectDB().then(()=>{
     app.listen(5001)
 })
-//password : JujagfA85gZ0pZRd
-//connection string :mongodb+srv://korcaklejdi80:JujagfA85gZ0pZRd@librarydb.1cdo1i2.mongodb.net/?retryWrites=true&w=majority&appName=LibraryDB
